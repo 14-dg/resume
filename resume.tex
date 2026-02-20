@@ -1,24 +1,39 @@
 \documentclass[11pt,a4paper]{article}
 
-\usepackage[margin=2cm]{geometry}
-\usepackage{parskip}
+% ------------------------------------------------
+% Packages
+% ------------------------------------------------
+\usepackage[a4paper,margin=2cm]{geometry}
+\usepackage{graphicx}
+\usepackage{float}
 \usepackage{titlesec}
 \usepackage{enumitem}
-\usepackage[T1]{fontenc}
-\usepackage[utf8]{inputenc}
-\usepackage{lmodern}
 \usepackage[hidelinks]{hyperref}
+\usepackage{parskip}
+\usepackage{xcolor}
+
+\setlength{\parindent}{0pt}
+\setlist[itemize]{noitemsep, topsep=0pt}
+
 
 \titleformat{\section}{\large\bfseries}{}{0em}{}[\titlerule]
 
 \begin{document}
 
-\begin{center}
-{\LARGE \textbf{Daniel Gräf}}\\
+\begin{minipage}{0.72\textwidth}
+    {\LARGE \textbf{Daniel Gräf}}\\
 B.Sc. Technische Informatik (Abschluss Sommer 2026) \\
 Rommerskirchen, Deutschland \\
-+49 1523 1094514 \quad | \quad daniel.graef14@gmail.com
-\end{center}
++49 1523 1094514 \quad | \quad \href{mailto:daniel.graef14@gmail.com}{daniel.graef14@gmail.com}
+\end{minipage}
+\hfill
+\begin{minipage}{0.25\textwidth}
+    \includegraphics[width=\linewidth]{Daniel_Graef.png}
+\end{minipage}
+
+\vspace{0.5cm}
+\hrule
+\vspace{0.7cm}
 
 %================================================
 \section*{Profil}
